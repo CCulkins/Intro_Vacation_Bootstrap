@@ -1,16 +1,37 @@
 .title {
   text-align: center;
+
 }
 
 img {
   text-align: center;
-  opacity: 0.6;
 }
 
 body {
-  background: linear-gradient(to right,blue,white,white,white,white,blue);
 }
 
-.title {
-  text-shadow: 1px 1px 9px blue;
+
+button a {
+  color: white;
+}
+
+header {
+  height:50px;
+  margin-top: 25px;
+}
+
+.jumbotron {
+
+}
+
+p {
+  text-align: justify;
+}
+
+.col-sm-3, .col-sm-4 {
+
+  background-color: #eee;
+
+
+  align-items: center;
 }
