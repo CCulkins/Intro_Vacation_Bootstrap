@@ -8,8 +8,8 @@ img {
 }
 
 body {
+  padding-top: 70px;
 }
-
 
 button a {
   color: white;
@@ -20,18 +20,31 @@ header {
   margin-top: 25px;
 }
 
-.jumbotron {
-
-}
-
 p {
   text-align: justify;
 }
 
 .col-sm-3, .col-sm-4 {
-
   background-color: #eee;
-
-
   align-items: center;
+}
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+#ourcarousel img {
+  height: 400px;
+  text-align: center;
+}
+
+#ourcarousel h1 {
+
+}
+
+.carousel-caption {
+  margin-bottom: 100px;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
 }
